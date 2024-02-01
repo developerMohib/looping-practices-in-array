@@ -12,3 +12,18 @@ function multiTable(){
         document.write( number + ' * ' + i + '  = '+ result + '<br>' );
     }
 }
+/* 
+
+    Write a loop 1 to 200. Use break to exit the loop once you find 100.
+
+*/
+
+let start = 0 ;
+while(start <= 200){
+    start++ ;
+    if (start == 101) {
+        break
+    }
+    document.write(start + '<br>');
+
+}
