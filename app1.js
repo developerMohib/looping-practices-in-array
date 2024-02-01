@@ -61,3 +61,39 @@ function ForFor(){
     }
     document.write('<br> All even Number sumation = ' + initial_sum);
 }
+
+/***
+    Implement a countdown timer that counts down from 21 to 15.
+ */
+let countdown = 21 ;
+document.write(' Countdown <br>');
+while (countdown > 15){
+    document.write(' ' + countdown + '<br>');
+    countdown--;
+}
+/**
+ * Find out big Number 
+ */
+
+function ForBigNum(){
+    let num_1 = Number(prompt('Enter Your First Number : '));
+    let num_2 = Number(prompt('Enter Your Second Number : '));
+    let num_3 = Number(prompt('Enter Your Third Number : '));
+    let num_4 = Number(prompt('Enter Your Fourth Number : '));
+    
+    document.write( 'Your given Number '+ num_1 +', '+ num_2 +', '+ num_3 +', '+ num_4);
+    
+    if (num_1 > num_2 && num_1 > num_3 && num_1 > num_4){
+        document.write('Big Number is '+ num_1);
+    }
+    else if(num_2 > num_3 && num_2 > num_4){
+        document.write('Big Number is '+ num_2);
+    }
+    else if(num_3 > num_4){
+        document.write('Big Number is '+ num_2);
+    }
+    else{
+        document.write(' <br> Big Number is '+ num_4);
+    }
+}
+
